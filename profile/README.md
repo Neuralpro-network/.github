@@ -16,18 +16,18 @@ Neural One：Neural's global nodes integrate global computing resources
 
 ```
 ┌─────────────────────────────────────────────┐
-│           🌐 Frontend UI & API              │
+│           🌐 Frontend UI & API             │
 ├─────────────────────────────────────────────┤
-│    ⛓️ Task Scheduling Contract ←→ 📊 Cache   │
+│    ⛓️ Task Scheduling Contract ←→ 📊 Cache │
 │           (Smart Contracts)    (Redis/MQ)   │
 ├─────────────────────────────────────────────┤
-│  🎯 Distributed Training Controller         │
+│  🎯 Distributed Training Controller        │
 │         (Kubernetes + Container Sandbox)    │
 ├─────────────────────────────────────────────┤
 │     🖥️ Computing Node Plugin               │
 │           (Docker Containers)               │
 ├─────────────────────────────────────────────┤
-│       💾 Storage System                     │
+│       💾 Storage System                    │
 │        (IPFS / Arweave)                     │
 └─────────────────────────────────────────────┘
 ```
@@ -35,4 +35,5 @@ Neural One：Neural's global nodes integrate global computing resources
 **🤗 Join the Neural technical discussion groups:**
 
 1. Telegram: https://www.neuralpro.net/
+
 2. Discord:https://discord.com/invite/aekXpzag3T
